@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <form method="POST">
+        <input name="zipcode" type="text" required maxlength="9" placeholder="Insira aqui o CEP"/>
+        <input type="submit" value="Consultar">
+    </form>
+
+{% endblock %}
